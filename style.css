@@ -13,7 +13,6 @@ body{
 
 .secondary-bg-color{
     background-color: #C09578;
-    color: #626262;
 }
 
 .light-bg-color{
@@ -26,6 +25,10 @@ body{
 
 .primary-color{
     color: #C09578;
+}
+
+.secondary-bg-color{
+    color: #626262;
 }
 
 .light-color{
@@ -43,7 +46,7 @@ body{
 }
 
 #navbar a,
-#navbar button{
+#navbar buton{
     color: #FFF;
 }
 
@@ -66,7 +69,7 @@ body{
     text-align: center;
 }
 
-#bag-item span{
+#bag-iten span{
     left: 20px;
 }
 
@@ -191,6 +194,7 @@ body{
 }
 
 #mini-banners .col-12 h2{
+
     text-transform: uppercase;
     max-width: 50px;
     font-size: 2.2em;
@@ -250,7 +254,7 @@ body{
 }
 
 @media(min-width:768px) {
-    .title{
+    .tittle{
         text-align: left;
     }
 }
@@ -315,7 +319,7 @@ body{
     margin-bottom: 5rem;
 }
 
-#new-products-banner{
+#new-peoducts-banner{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -334,7 +338,7 @@ body{
     padding: 0;
 }
 
-#new-products .card img{
+#new-peoducts .card img{
     height: 150px;
     width: 90px;
     margin: 2em auto;
@@ -390,7 +394,7 @@ body{
     text-align: center;
 }
 
-@media(min-width: 795px){
+@media(mn-width: 795px){
     #footer .footer-column{
         padding: 5em 2em;
     }
@@ -406,7 +410,7 @@ body{
     text-align: center;
 }
 
-@media(min-width: 795px){
+@media(mn-width: 795px){
     #footer-links-container li{
         text-align: left;
     }
@@ -419,53 +423,57 @@ body{
 #footer-links-container li a:hover{
     color: #C09578;
 }
+    
 
-#footer-center .store-phone {
+    #footer-center .store-phone {
     color: #C09578;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2rem;
     margin-top: -15px;
-}
+    font-size: 1.5em;
+    }
+    
 
 /* NEWS */
-#newsletter-container {
+     #newsletter-container {
     background-color: #101010;
     border-bottom: 1px solid #626262;
     text-align: center;
     padding: 20px;
-}
+ }
 
 #news-form {
     max-width: 600px;
     margin: 15px auto;
-}
+     }
 
-#new-form i{
-    font-size: 1.5em;
-}
+     #new-form i{
+        font-size: 1.5em;
+     }
 
-#news-form .btn {
+    
+ #news-form .btn {
     color: #FFF;
-}
+ }
 
-#social-container{
+ #social-container{
     margin: 20px auto;
-}
+ }
 
-#social-container i{
+ #social-container i{
     font-size: 1.5em;
     margin: 10px;
     cursor: pointer;
     color: #626262;
     transition: .3s;
-}
+ }
 
-#social-container i:hover{
+ #social-container i:hover{
     color: #C09578;
-}
+ }
 
-/*COPY*/
-#copy-container {
+    /*COPY*/
+ #copy-container {
     text-align: center;
     padding: 30px;
-}
+    }
