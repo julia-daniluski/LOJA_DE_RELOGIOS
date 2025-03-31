@@ -194,7 +194,7 @@ body{
 }
 
 #mini-banners .col-12 h2{
-    color: #5f1515;
+
     text-transform: uppercase;
     max-width: 50px;
     font-size: 2.2em;
@@ -261,5 +261,64 @@ body{
 
 .card{
     text-align: center;
-    
+    border-radius: 0;
+}
+
+.card img{
+    width: 140px;
+    margin: 2em auto;
+}
+
+.card .card-text{
+    margin: 2em 0;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: transparent;
+    border-color: #c09578;
+}
+
+.btn:hover{
+    background-color: #C09578;
+    border-color: #C09578;
+}
+
+/*BOTTOM BANNER*/
+#bottom-banner{
+    background-color: #101010;
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+#bottom-banner .offer-subtitle,
+#bottom-banner h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bottom-banner .btn{
+    margin: 2em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#bottom-banner img{
+    max-width: 175px;
+}
+
+@media(min-width:768px){
+    #bottom-banner h2{
+        font-size: 6em;
+    }
+}
+
+/*BANNER DESTAQUE*/
+#new-products{
+    margin-bottom: 5rem;
+}
+
+#new-peoducts-banner{
+    display: flex;
 }
