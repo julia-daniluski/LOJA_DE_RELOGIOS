@@ -321,4 +321,35 @@ body{
 
 #new-peoducts-banner{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+}
+
+#new-products-banner h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+#new-products .col-md-4{
+    padding: 0;
+}
+
+#new-peoducts .card img{
+    height: 150px;
+    width: 90px;
+    margin: 2em auto;
+}
+
+/*GALLERY*/
+#gallery .image-container {
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid #101010;
 }
